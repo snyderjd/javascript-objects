@@ -12,6 +12,8 @@ const restaurant = {
     orders: [],
     placeOrder: function (meal) {
         this.orders.push(meal);
+    },
+    getOrders: function () {
         return this.orders;
     }
 }
@@ -35,12 +37,18 @@ const chickenNuggetsCombo = {
 }
 
 // Place an order
-// Invoke the function to return the list of all orders
 
 restaurant.placeOrder(chickenCombo);
 restaurant.placeOrder(cheeseburgerCombo);
-restaurant.placeOrder(chickenNuggetsCombo);
+
+// Invoke the function to return the list of all orders
+
+console.table(restaurant.getOrders());
+
+//restaurant.placeOrder(cheeseburgerCombo);
+// restaurant.placeOrder(chickenNuggetsCombo);
 
 // Output all orders to the console using console.table()
 
 // console.table(restaurant.orders);
+
