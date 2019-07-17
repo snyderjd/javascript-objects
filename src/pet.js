@@ -43,10 +43,12 @@ const pet = {
     Here's an example. If your pet is a cat, then he likely only likes furry toys, so you could put an if..then condition in the play() method that checks if the word "fuzzy" is in the argument value. If it is, it gets added to the array.
 */
 
-console.log(pet.play('ball'));
-console.log(pet.play('tennis ball'));
-console.log(pet.play('bone'));
-console.log(pet.play('sock'));
-console.log(pet.favoriteToys);
+// console.log(pet.play('ball'));
+// console.log(pet.play('tennis ball'));
+// console.log(pet.play('bone'));
+// console.log(pet.play('sock'));
+// console.log(pet.favoriteToys);
+
+
 
 
