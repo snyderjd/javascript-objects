@@ -50,5 +50,3 @@ console.table(restaurant.getOrders());
 
 // Output all orders to the console using console.table()
 
-// console.table(restaurant.orders);
-
